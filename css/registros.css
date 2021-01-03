@@ -52,3 +52,28 @@ nav#menu img {
     margin-top: 5px;
     margin-left: 20px;
 }
+
+article#bdas {
+    padding: 50px;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+    background-image: url(../img/comp.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+article#bdas h1{
+    text-align: center;
+    font-family: 'Gloria Hallelujah', cursive;
+    color: white;
+    font-size: 22pt;
+    margin-bottom: 0px;
+    position: relative;
+}
+
+article#bdas p {
+    margin-top: 0px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}

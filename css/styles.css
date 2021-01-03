@@ -8,6 +8,7 @@ body {
     margin: 0px;
     background-color: whitesmoke;
     font-family: normal, sans-serif;
+    background-color: #1c1c1c;
 }
 
 header#cabeca {
@@ -83,19 +84,25 @@ article#bdas p {
     font-family: 'Roboto', sans-serif;
 }
 
-article#desc {
+article#desc div#des {
     border: 1px solid black;
+    background-color: #070f18;
+}
+
+article#desc {
     margin-bottom: 5px;
 }
 
 article#desc h2 {
-    color:rgb(66, 66, 66);
+    color:rgb(255, 255, 255);
     text-decoration: underline;
     margin-left: 16px;
+    margin-bottom: 5px;
 }
 
 article#desc p {
     font-size: 12pt;
+    color: white;
     font-family: 'Roboto', sans-serif;
     margin-left: 8px;
     margin-right: 5px;
