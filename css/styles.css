@@ -98,6 +98,7 @@ article#desc p {
     font-size: 12pt;
     font-family: 'Roboto', sans-serif;
     margin-left: 8px;
+    text-align: justify;
 }
 
 article#desc span.adm {
