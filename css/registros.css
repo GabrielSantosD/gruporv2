@@ -93,6 +93,10 @@ article#info {
     text-indent: 5px;
 }
 
+article#info h3 {
+    color: rgb(71, 255, 154);
+}
+
 article#info p {
     margin: 5px;
     text-align: justify;
@@ -120,6 +124,11 @@ table#tabmi td {
     font-size: 14pt;
     text-align: center;
     color: white;
+}
+
+table#tabmi a {
+    color: white;
+    text-decoration: none;
 }
 
 table#tabmi td.esq {
