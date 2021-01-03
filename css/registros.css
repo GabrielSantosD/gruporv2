@@ -104,6 +104,8 @@ table#tabmi {
     border-spacing: 0px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 table#tabmi caption {
