@@ -52,3 +52,12 @@ nav#menu img {
     margin-top: 5px;
     margin-left: 20px;
 }
+
+footer#rodape {
+    margin-top: 10px;
+    padding: 20px;
+    color: rgb(136, 136, 136);
+    text-align: center;
+    background-color: rgb(48, 48, 48);
+    border-top: 1px solid rgb(0, 0, 0);
+}

@@ -6,8 +6,9 @@
 
 body {
     margin: 0px;
-    background-color: whitesmoke;
-    font-family: normal, sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: #1c1c1c;
+    color: white;
 }
 
 header#cabeca {
@@ -53,6 +54,11 @@ nav#menu img {
     margin-left: 20px;
 }
 
+div#tudo {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
 article#bdas {
     padding: 50px;
     border-bottom: 1px solid black;
@@ -76,4 +82,53 @@ article#bdas p {
     color: rgb(255, 255, 255);
     text-align: center;
     font-family: 'Roboto', sans-serif;
+}
+
+article#info {
+    margin: 5px;
+    background-color: #0b1a2b;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid black;
+    text-indent: 5px;
+}
+
+article#info p {
+    margin: 5px;
+    text-align: justify;
+}
+
+table#tabmi {
+    background-color: rgb(253, 45, 90);
+    border: 1px solid black;
+    border-spacing: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table#tabmi caption {
+    font-size: 14pt;
+    background-color: rgb(53, 53, 53);
+    padding: 4px;
+}
+
+table#tabmi td {
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 14pt;
+    text-align: center;
+    color: white;
+}
+
+table#tabmi td.esq {
+    background-color: rgb(53, 53, 53);
+}
+
+footer#rodape {
+    margin-top: 10px;
+    padding: 20px;
+    color: rgb(136, 136, 136);
+    text-align: center;
+    background-color: rgb(48, 48, 48);
+    border-top: 1px solid rgb(0, 0, 0);
 }
