@@ -6,8 +6,14 @@
 
 body {
     margin: 0px;
-    background-color: whitesmoke;
-    font-family: normal, sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: #1c1c1c;
+    color: white;
+}
+
+div#tudo {
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 header#cabeca {
@@ -51,6 +57,45 @@ nav#menu img {
     width: 60px;
     margin-top: 5px;
     margin-left: 20px;
+}
+
+article#bdas {
+    padding: 50px;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+    background-image: url(../img/vare.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+article#bdas h1{
+    text-align: center;
+    font-family: 'Gloria Hallelujah', cursive;
+    color: white;
+    font-size: 22pt;
+    margin-bottom: 0px;
+    position: relative;
+}
+
+article#bdas p {
+    margin-top: 0px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+article#sobre h3 {
+    color: rgb(71, 255, 154);
+    text-decoration: underline;
+}
+
+article#sobre p {
+    text-indent: 5px;
+    text-align: justify;
+}
+
+div#tudo h1#cons {
+    border: 1px solid white;
 }
 
 footer#rodape {
