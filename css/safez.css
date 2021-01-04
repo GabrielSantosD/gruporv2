@@ -6,14 +6,9 @@
 
 body {
     margin: 0px;
+    background-color: whitesmoke;
     font-family: 'Roboto', sans-serif;
     background-color: #1c1c1c;
-    color: white;
-}
-
-div#tudo {
-    margin-left: 5px;
-    margin-right: 5px;
 }
 
 header#cabeca {
@@ -63,7 +58,7 @@ article#bdas {
     padding: 50px;
     border-bottom: 1px solid black;
     margin-bottom: 20px;
-    background-image: url(../img/vare.png);
+    background-image: url(../img/rlx.jpg);
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -84,18 +79,44 @@ article#bdas p {
     font-family: 'Roboto', sans-serif;
 }
 
-article#sobre h3 {
-    color: rgb(71, 255, 154);
+div#tudo {
+    margin-left: 5px;
+    margin-right: 5px;
+    color: white;
+}
+
+article#rlx  div#ds{
+    background-color: #0b1a2b;
+}
+
+article#rlx img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: auto;
+}
+
+article#rlx h2 {
+    color: rgb(86, 255, 142);
     text-decoration: underline;
-}
-
-article#sobre p {
     text-indent: 5px;
-    text-align: justify;
+    margin-left: 8px;
 }
 
-h2#cons {
-    border: 1px solid white;
+article#rlx p {
+    text-align: justify;
+    text-indent: 5px;
+    margin: 8px;
+}
+
+article#rlx div#ds {
+    border: 1px solid black;
+}
+
+article#rlx iframe {
+    margin: 20px;
+    width: auto;
 }
 
 footer#rodape {
