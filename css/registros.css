@@ -84,7 +84,11 @@ article#bdas p {
     font-family: 'Roboto', sans-serif;
 }
 
-article#info {
+h3 {
+    color: rgb(71, 255, 154);
+}
+
+article.registros {
     margin: 5px;
     background-color: #0b1a2b;
     color: white;
@@ -93,16 +97,12 @@ article#info {
     text-indent: 5px;
 }
 
-article#info h3 {
-    color: rgb(71, 255, 154);
-}
-
-article#info p {
+article.registros p {
     margin: 5px;
     text-align: justify;
 }
 
-table#tabmi {
+table.tabmi {
     background-color: rgb(253, 45, 90);
     border: 1px solid black;
     border-spacing: 0px;
@@ -112,13 +112,13 @@ table#tabmi {
     margin-bottom: 20px;
 }
 
-table#tabmi caption {
+table.tabmi caption {
     font-size: 14pt;
     background-color: rgb(53, 53, 53);
     padding: 4px;
 }
 
-table#tabmi td {
+table.tabmi td {
     border: 1px solid black;
     padding: 10px;
     font-size: 14pt;
@@ -126,12 +126,12 @@ table#tabmi td {
     color: white;
 }
 
-table#tabmi a {
+table.tabmi a {
     color: white;
     text-decoration: none;
 }
 
-table#tabmi td.esq {
+table.tabmi td.esq {
     background-color: rgb(53, 53, 53);
 }
 
