@@ -98,6 +98,48 @@ h2#cons {
     border: 1px solid white;
 }
 
+div#qual h3 {
+    color: red;
+    margin-bottom: 6px;
+}
+
+div#sem p#kf {
+    text-align: center;
+    font-size: 14pt;
+}
+
+div#sem input {
+    padding: 5px;
+    background-color: rgb(255, 36, 83);
+    border: 1px solid black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+div#unlocked input {
+    padding: 5px;
+    background-color: rgb(255, 36, 83);
+    border: 1px solid black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+div#unlocked {
+    text-align: center;
+}
+
+div#dica input {
+    padding: 5px;
+    background-color: rgb(255, 36, 83);
+    border: 1px solid black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+div#wey {
+
+}
+
 footer#rodape {
     margin-top: 10px;
     padding: 20px;
