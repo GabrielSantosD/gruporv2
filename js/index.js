@@ -11,7 +11,7 @@ function confirmar() {
 
 function dica() {
     var w = window.document.getElementById('wey')
-    w.innerHTML = 'Tente fazer algo com os números que achar...'
+    w.innerHTML = 'Segundos...'
 }
 
 /* Sem olhar os codigo ricardo :( */
