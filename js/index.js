@@ -8,13 +8,3 @@ function confirmar() {
         unlock.innerHTML = 'Senha Errada!'
     }
 }
-
-/*function dica() {
-    var w = window.document.getElementById('wey')
-    w.innerHTML = 'Segundos...'
-    w.innerHTML = 'Faça algo com os numeros que encontrar'
-    w.innerHTML = 'Vocês estão pertos, um de vcs está certo'
-    w.innerHTML = 'MAIS dificil fica'
-} /*
-
-/* Sem olhar os codigo ricardo :( */
