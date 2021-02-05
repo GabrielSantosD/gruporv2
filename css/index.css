@@ -101,13 +101,12 @@ article#bdas h1{
 }
 
 article#bdas p {
-    width: 50%;
+    width: 75%;
     margin: auto;
     margin-top: 10px;
     color: rgb(255, 255, 255);
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    border-bottom: 1px solid white;
     font-size: 14pt;
 }
 
