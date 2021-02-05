@@ -16,14 +16,15 @@ body {
     margin: 0px;
     background-color: whitesmoke;
     font-family: normal, sans-serif;
-    background-color: rgb(53, 54, 58);
+    background-color: #f1f1f1;
+    /*background-color: rgb(53, 54, 58);*/
 }
 
-header {
-    /*background-color: rgb(33, 14, 46);*/
-}
+/*header {
+    background-color: rgb(33, 14, 46);
+}*/
 
-nav#menu img {
+nav#menu img#logo {
     position: relative;
     margin-left: 5px;
     width: 70px;
@@ -62,6 +63,13 @@ nav#menu a:hover li:hover {
     text-decoration: underline;
 }
 
+nav#menu img#darkb {
+    width: 50px;
+    float: right;
+    padding: 15px;
+    margin-top: 5px;
+}
+
 div#tudo {
     margin-left: 5px;
     margin-right: 5px;
@@ -69,11 +77,15 @@ div#tudo {
 
 div#bdasi {
     border-bottom: 1px solid white;
-    padding-bottom: 50px;
-    margin-bottom: 20px;
+    padding-bottom: 30px;
+    margin-bottom: 10px;
     background-image: url(../img/wp.jpg);
     background-repeat: no-repeat;
     background-position: center;
+}
+
+article#bdas {
+    margin-top: 15px;
 }
 
 article#bdas h1{
@@ -99,10 +111,14 @@ article#bdas p {
     font-size: 14pt;
 }
 
-article#desc div#des {
+div#des {
+    width: 90%;
     border: 1px solid white;
-    border-radius: 5px;
-    background-color: #1c1c1c;
+    border-radius: 10px;
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
     /*background-color: #0b1a2b;*/
 }
 
@@ -110,18 +126,21 @@ article#desc {
     margin-bottom: 5px;
 }
 
-article#desc h2 {
-    color:rgb(255, 255, 255);
-    text-decoration: underline;
-    margin-left: 16px;
-    margin-bottom: 5px;
+div#tudo {
+    color: #363636;
 }
 
-article#desc p {
+div#tudo h2 {
+    padding: 10px;
+    width: 98%;
+    font: 1.65rem Nunito,sans-serif;
+    text-decoration: underline;
+    margin-bottom: 15px;
+}
+
+div#tudo p {
     padding: 5px;
-    font-size: 12pt;
-    color: white;
-    font-family: 'Roboto', sans-serif;
+    font: 1.25rem/2.25rem Nunito,sans-serif;
     margin-left: 8px;
     margin-right: 5px;
     text-align: justify;
